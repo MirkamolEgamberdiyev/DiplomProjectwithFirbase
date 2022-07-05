@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">TUIT Teacher Student</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txtContinue">Davom Etish</string>
+    <string name="sign_in">Kirish</string>
+    <string name="continue_with_facebook">Facebook orqali</string>
+    <string name="continue_with_google">Google orqali</string>
+    <string name="e_mail_address">E-mail pochta</string>
+    <string name="don_t_have_an_account">Xisob raqamingiz yoqmi?</string>
+    <string name="register">Registratsiya</string>
+    <string name="login">Kirish</string>
+    <string name="personal">SHAXSIY</string>
+    <string name="username">Username</string>
+    <string name="phone">Telefon</string>
+    <string name="password">Parol</string>
+    <string name="notifications">Bildirishnoma</string>
+    <string name="some_additional_explanation">Ba\'zi qo\'shimcha tushuntirishlar</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="notifications_not_found">Bildirishnomalar topilmadi</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec facilisis tempus, nunc, tellus luctus purus. Tellus magna eget odio placerat pellentesque varius amet sagittis. Mattis euismod neque posuere in lectus ipsum morbi at. Arcu mauris elementum proin at. Quis consequat imperdiet arcu gravida nulla tellus. In purus maecenas pellentesque pellentesque ante senectus sed. Sit magnis tortor eros, fringilla magnis volutpat nibh cursus. Commodo ultrices neque non sed nisl gravida mus in nibh. Amet morbi elementum et pretium orci. Turpis id rutrum dolor et augue. Dui pharetra turpis pulvinar venenatis, enim, odio in. Sapien amet vitae sit fringilla. Porttitor dis eget quis elementum, eu condimentum leo risus. Elit, vestibulum risus facilisis metus mattis dignissim.</string>
+    <string name="shopapp">Shopapp</string>
+    <string name="my_cart">Mening savatim</string>
+    <string name="profile">Profil</string>
+    <string name="confirm">Tasdiqlash</string>
+    <string name="change_user_info">Foydalanuvchi ma\'lumotlarini o\'zgartirish</string>
+    <string name="change_phone_number">Telefon raqamini o\'zgartiring</string>
+    <string name="language">Til</string>
+    <string name="about_app">Dastur haqida</string>
+    <string name="technical_support">Texnik yordam</string>
+    <string name="log_out">Chiqish</string>
+    <string name="sign_up">Ro\'yxatdan o\'tish</string>
+    <string name="russian">rus</string>
+    <string name="english">Ingliz</string>
+    <string name="change_language">Tilni o\'zgartirish</string>
+    <string name="save">Saqlash</string>
+    <string name="change_profile">Profilni o\'zgartirish</string>
+    <string name="fio">FIO</string>
+    <string name="your_gender">Sizning jinsingiz</string>
+    <string name="your_birthday">Tug\'ilgan kun</string>
+    <string name="send">Yuborish</string>
+    <string name="make_phone_call">Yana yuboring</string>
+    <string name="enter_code">Kodni kiriting</string>
+    <string name="giveInfo">Parolni kiriting</string>
+    <string name="enterSomething">Raqamni kiriting</string>
+    <string name="newPhoneNumber">Yangi telefon raqami</string>
+    <string name="change_phone_num">Telefon raqamini o\'zgartirish</string>
+    <string name="code_info">Quyidagi telefon raqamiga SMS kodi yuborildi</string>
+    <string name="change">O\'zgartirish</string>
+    <string name="PrivacyPolicy">Maxfiylik siyosati</string>
+    <string name="License_agreement">Litsenziya shartnomasi</string>
+    <string name="back">Orqaga</string>
+    <string name="yes">Ha</string>
+    <string name="no">Yo\'q</string>
+    <string name="log_out_text">" Haqiqatan ham tizimdan chiqmoqchimisiz?"</string>
+    <string name="not_found_active_found">Yoqtirgan narsa topilmadi</string>
+    <string name="not_found_active_found1">Hech qanday chop etilgan post topilmadi</string>
+    <string name="reEnterPassword">Parolni yana kiriting</string>
+    <string name="enterValidEmail">Yaroqli elektron pochta manzilini kiriting</string>
+    <string name="passwordsMustBeEqual">Parollar teng bo\'lishi kerak</string>
+    <string name="enterName">Maydon bo\'sh bo\'lmasligi kerak</string>
+    <string name="passwordMustBeMoreThan6Char">Parol kamida 6 ta belgidan iborat</string>
+    <string name="currentPassword">Joriy parol</string>
+    <string name="newPassword">Yangi Parol</string>
+    <string name="confirmNewPassword">Yangi parolni tasdiqlang</string>
+    <string name="updateProfile">Profilni yangilash</string>
+    <string name="updatePassword">Parolni yangilash</string>
+    <string name="invalid_phone_number">Telefon raqami noto‘g‘ri</string>
+    <string name="personalData">Shaxsiy malumot</string>
+    <string name="what_are_you_searching">Nima qidiryapsiz?</string>
+    <string name="chosen">Tanlangan</string>
+    <string name="newPost">Yangi post</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="action_settings">Sozlamalar</string>
+    <string name="add_title">Sarlavha qo\'shing*</string>
+    <string name="for_example_redmi_note_7">Masalan: Redmi Note 7</string>
+    <string name="select_category">Kategoriyani tanlang*</string>
+    <string name="select_region">Mintaqani tanlang*</string>
+    <string name="description">Tavsif (kamida 8 ta harf)*</string>
+    <string name="contactInfo">Aloqa ma\'lumotlari</string>
+    <string name="person_for_contact">aloqa uchun shaxs*</string>
+    <string name="errorTitle">Sarlavha kamida 4 ta belgidan iborat boʻlishi kerak</string>
+    <string name="gmail">Gmail*</string>
+    <string name="select_images">Tasvirlarni tanlang*</string>
+    <string name="add_price">Narxni so\'mda qo\'shing*</string>
+    <string name="select">Tanlang</string>
+    <string name="selectRegion">Mintaqani tanlang</string>
+    <string name="liked">Liked</string>
+    <string name="number_of_views">"Ko\'rishlar soni: "</string>
+    <string name="address">Manzil</string>
+    <string name="category">Turkum</string>
+    <string name="description_">Tavsif</string>
+    <string name="name">Ism</string>
+    <string name="you_need_to_register_or_login_first">Avval ro\'yxatdan o\'tishingiz yoki tizimga kirishingiz kerak</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="login_or_register">Kirish yoki Ro\'yxatdan o\'tish</string>
+    <string name="warning">Ogohlantirish!!!</string>
+    <string name="authenticate">Autentifikatsiya qilish</string>
+    <string name="auth">Auth</string>
+    <string name="my_published_products">Mening chop etilgan xabarlarim</string>
+    <string name="my_posts">Mening xabarlarim</string>
+    <string name="like_post">Postni yoqtirish</string>
+    <string name="all">Hammasi</string>
+    <string name="create_post">Yangi E\'lon</string>
+    <string name="update_post">Postni Yangilash</string>
+    <string name="selectet_image_size">Tanlangan rasm hajmi 2 MB dan kam bo\'lishi kerak</string>
+    <string name="sum">so\'m</string>
+    <string name="color">Rang</string>
+    <string name="price">Narx</string>
+    <string name="only_deals">Faqat Bog\'liq bo\'lganlar</string>
+    <string name="filter_by">Filtrlash</string>
+    <string name="create">Qo\'shish</string>
+    <string name="enter_amount">Narxini kiriting</string>
+    <string name="add_phone_number">Telefon raqam kiriting</string>
+    <string name="add_phone_number_star">Telefon raqam kiriting*</string>
+    <string name="phone_number">Telefon raqam</string>
+    <string name="enter_valid_phone_number">To\'g\'ri raqam kiriting</string>
+    <string name="similar_items">O\'xshash elonlar</string>
+    <string name="men_o_qituvchiman">Men O\'qituvchiman</string>
+    <string name="select_subject">Fanni Tanlang*</string>
+    <string name="faqs">FAQs</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="quiz">Quiz</string>
+    <string name="replay">Qayta O\'ynash</string>
+    <string name="review">Tekshirish</string>
+    <string name="share">Ulashish</string>
+    <string name="compare">Taqqoslash</string>
+    <string name="home">Bosh Sahifa</string>
+    <string name="str_signin_success">Signed in successfully</string>
+    <string name="str_signin_failed">Sign in failed</string>
+    <string name="enter_your_name">Ismingiz</string>
+    <string name="upload">Yuklash</string>
+    <string name="correct_answer">To\'g\'ri Javob</string>
+    <string name="continuee">Davom etish</string>
+    <string name="you_havent">Siz hali imtihon topshirmagansiz</string>
+    <string name="exam_results">Imtohon Natijalari</string>
+
+    <string-array name="my_string_array">
+        <item>Optik aloqa tizimlari</item>
+        <item>Multimedia aloqa tarmoqlari</item>
+        <item>Telekommunikatsiyada dasturlash strukturasi</item>
+        <item>Virtual tarmoq texnologiyasi</item>
+        <item>IMS ga kirish (B)</item>
+        <item>Ma`lumotlar uzatish asoslari</item>
+        <item>Telekommunikatsiya tarmoqlarini boshqarish asoslari</item>
+        <item>Infokomunikatsiya tizimlarining elektr ta`minoti</item>
+        <item>Tarmoq havfsizligi</item>
+        <item>Simsiz tarmoq</item>
+        <item>O`rnatilgan tizimlar</item>
+        <item>Operatsion tizimlar</item>
+        <item>Ekologiya</item>
+        <item>Raqamli qurilmalarni loyixalashga kirish</item>
+        <item>Kompyuter arxitekturasi</item>
+        <item>Tizimlar va signallarni qayta ishlash</item>
+        <item>Kompyuter tarmoqlari</item>
+        <item>Ingliz tili 4</item>
+        <item>Hayot faoliyati xavfsizligi</item>
+        <item>Elektronika va sxemalar 2</item>
+        <item>Algoritmlarni loyihalash</item>
+        <item>Veb dasturlashga kirish</item>
+        <item>Komyuterni tashkillashtirish</item>
+        <item>Zamonaviy iqtisodiyot</item>
+        <item>Ingliz tili 3</item>
+        <item>Elektronika va sxemalar 1</item>
+        <item>Ma`lumotlar tuzilmasi va algoritmlar</item>
+        <item>Kiberxavfsizlik asoslari</item>
+        <item>Ma`lumotlar bazasi</item>
+        <item>Fizika 2</item>
+        <item>O`zbek/Rus tili 2</item>
+        <item>Ingliz tili 2</item>
+        <item>Matematika 2</item>
+        <item>Sonli usullar va chiziqli dasturlash</item>
+        <item>C++ 2</item>
+        <item>Mutaxassislikka kirish (Telekommunikatsiya)</item>
+        <item>O`zbek/Rus tili 1</item>
+        <item>Fizika 1</item>
+        <item>Ingliz tili 1</item>
+        <item>Jismoniy madaniyat 1</item>
+        <item>Dinshunoslik</item>
+        <item>Matematika 1</item>
+        <item>C++ 1</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result">Natijangiz</string>
+    <string name="finish">Yakunlash</string>
+</resources>

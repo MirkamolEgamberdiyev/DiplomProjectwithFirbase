@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "97299097795",
+    "firebase_url": "https://daily-shopping-list-7bb71-default-rtdb.firebaseio.com",
+    "project_id": "daily-shopping-list-7bb71",
+    "storage_bucket": "daily-shopping-list-7bb71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97299097795:android:9e46bacaad216a78f79a76",
+        "android_client_info": {
+          "package_name": "com.jaloliddinabdullaev.dailyshoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnM2mUM07SWqr8Bab0wGMZhRgjuyDrmPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97299097795:android:cc0d9e3e2f987f59f79a76",
+        "android_client_info": {
+          "package_name": "com.jaloliddinabdullaev.koprik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnM2mUM07SWqr8Bab0wGMZhRgjuyDrmPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97299097795:android:b97744ad684ccd8ff79a76",
+        "android_client_info": {
+          "package_name": "com.tuit.tuit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnM2mUM07SWqr8Bab0wGMZhRgjuyDrmPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97299097795-p6og0i9eq0189gkjvgc3104qh3ato2bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

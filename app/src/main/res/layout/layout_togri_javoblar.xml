@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="?attr/colorOnSecondary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_togri_javoblar"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="20dp"
+        app:strokeColor="@color/base_blue"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/savolNomeri"
+                android:layout_gravity="center"
+                android:fontFamily="@font/inter_regular"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:text="Nomer"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/base_blue"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/togriJavobText"
+                android:text="Jalol"
+                android:fontFamily="@font/inter_regular"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/load"
+                android:visibility="gone"
+                android:id="@+id/onlineImageResult"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/base_blue"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/buttonA"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/buttonB"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/buttonC"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/buttonD"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/togriJavobKorsatish"
+                android:text="Sizning javobingiz "
+                android:fontFamily="@font/inter_regular"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/inter_regular"
+
+                android:id="@+id/togriJavobKorsatish2"
+                android:text="Togri javob "
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        app:cardCornerRadius="18dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/callIcon"
+            android:layout_width="32dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_height="32dp"
+            android:src="@drawable/markasdone"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

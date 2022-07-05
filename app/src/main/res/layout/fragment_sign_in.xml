@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.login.login.FragmentSignIn"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/frame"
+            android:background="@color/white"
+            android:elevation="@dimen/dimen_4dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_56dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="@dimen/dimen_12dp"
+                android:layout_gravity="center_vertical"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/back"
+                app:tint="@color/black"
+                android:focusable="true"
+                android:padding="@dimen/dimen_6dp"
+                android:src="@drawable/ic_back_icon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:fontFamily="@font/inter_bold"
+                android:layout_gravity="center_vertical"
+                android:text="@string/sign_in"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_20sp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_56dp"
+            android:layout_marginHorizontal="@dimen/dimen_30dp"
+            android:layout_marginTop="@dimen/dimen_32dp"
+            android:background="@drawable/background_8dp_blue"
+            android:fontFamily="@font/inter_regular"
+            android:hint="@string/e_mail_address"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="@dimen/dimen_12dp"
+            android:textColorHint="#61000000"
+            android:textSize="@dimen/dimen_16sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_30dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="#FFF"
+            app:boxBackgroundColor="#FFF"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            app:passwordToggleEnabled="true">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:background="@drawable/background_8dp_blue"
+                android:fontFamily="@font/inter_regular"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/dimen_12dp"
+                android:textSize="@dimen/dimen_16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:insetBottom="@dimen/dimen_0dp"
+            android:insetTop="@dimen/dimen_0dp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:id="@+id/signIn"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="@dimen/dimen_16sp"
+            android:layout_margin="@dimen/dimen_30dp"
+            app:cornerRadius="@dimen/dimen_8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_30dp"
+            android:src="@drawable/ic_divider_text"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_16sp"
+                android:fontFamily="@font/inter_medium"
+                android:textColor="#828282"
+                android:text="@string/don_t_have_an_account"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/base_blue"
+                android:id="@+id/register"
+                android:textSize="@dimen/dimen_16sp"
+                android:fontFamily="@font/inter_medium"
+                android:text="@string/register"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_main_50">#8002C65C</color>
+    <color name="gray_6">#F2F2F2</color>
+    <color name="green">#15C657</color>
+    <color name="background_color_grey">#F2F4F7</color>
+    <color name="base_blue">#0D6EFD</color>
+    <color name="gray_fa">#FAFAFA</color>
+    <color name="gray_e5">#E5E5E5</color>
+    <color name="gray_black">#D5D3D3</color>
+    <color name="gray">#F9F9F9</color>
+    <color name="black_F3">#F3F3F3</color>
+
+
+    <color name="red">#FF5757</color>
+    <color name="grey">#F9F9F9</color>
+    <color name="dark_grey">#DBDFE0</color>
+    <color name="nav_bar">@color/reply_black_900_alpha_020</color>
+    <color name="reply_black_900_alpha_020">#33000000</color>
+    <color name="reply_white_50_alpha_060">#990D6EFD</color>
+    <color name="reply_blue_50_alpha_060">#E60D6EFD</color>
+    <color name="color_main_60">#4DFFFFFF</color>
+    <color name="color_main_40">#33FFFFFF</color>
+    <color name="color_settings">#6F738B</color>
+    <color name="color_red">#D8757F</color>
+    <color name="color_play_again">#528EAB</color>
+    <color name="color_review_answer">#BF8D6C</color>
+    <color name="color_share_color">#715ECD</color>
+
+
+
+    //Text
+    <color name="text_100">#DFDEE4</color>
+    <color name="text_200">#C6C5CD</color>
+    <color name="text_300">#ABAAB1</color>
+    <color name="text_400">#89888E</color>
+    <color name="text_500">#5E5D65</color>
+    <color name="text_600">#454354</color>
+    <color name="text_700">#302E43</color>
+    <color name="text_800">#252339</color>
+    <color name="text_900">#191632</color>
+</resources>
